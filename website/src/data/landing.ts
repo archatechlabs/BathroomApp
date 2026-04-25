@@ -8,7 +8,7 @@ export const navLinks = [
 ];
 
 export const iconFeatures = [
-  { title: "Verified & Clean", icon: "ShieldCheck" },
+  { title: "Verified & Clean", icon: "BadgeCheck" },
   { title: "Guaranteed Access", icon: "LockKeyhole" },
   { title: "Real-Time Availability", icon: "Clock3" },
   { title: "Top Rated by Users", icon: "Star" },

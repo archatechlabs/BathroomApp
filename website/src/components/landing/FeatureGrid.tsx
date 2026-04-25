@@ -11,7 +11,7 @@ export function FeatureGrid() {
     <section id="features" className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {iconFeatures.map((f, index) => {
-          const Icon = icons[f.icon as keyof typeof icons];
+          const Icon = icons[f.icon as keyof typeof icons] ?? BadgeCheck;
           return (
             <motion.div
               key={f.title}
